@@ -29,26 +29,26 @@ output = document.getElementById('answer');
 	3. Dump that value into my "output" getElementById
 */
 
-// button.onclick = function() {
-// console.log ('Button was clicked');
-// 	output.innerHTML = (inputField1.value + inputField2.value) || 
-// 	(inputField1.value - inputField2.value) || (inputField1.value * inputField2.value) || (inputField1.value / inputField2.value);
-// 	console.log(output.innerHTML);
 
 button1.onclick = function () {
-	var output = Number(inputField1.value) + Number(inputField2.value);
-	console.log(output);
+	var output1 = Number(inputField1.value) + Number(inputField2.value);
+	console.log(output1);
+	output.innerHTML = output1;
 }
 button2.onclick = function () {
-	var output = Number(inputField1.value) - Number(inputField2.value);
-	console.log(output);
+	var output2 = Number(inputField1.value) - Number(inputField2.value);
+	console.log(output2);
+	output.innerHTML = output2;
 }
 button3.onclick = function () {
-	var output = Number(inputField1.value) * Number(inputField2.value);
-	console.log(output);
+	var output3 = Number(inputField1.value) * Number(inputField2.value);
+	console.log(output3);
+	output.innerHTML = output3;
 }
 button4.onclick = function () {
-	var output = Number(inputField1.value) / Number(inputField2.value);
-	console.log(output);
+	var output4 = Number(inputField1.value) / Number(inputField2.value);
+	console.log(output4);
+	output.innerHTML = output4;
 }
+
 
