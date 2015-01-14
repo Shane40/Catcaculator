@@ -1,8 +1,66 @@
+body {
+	width: 400px;
+	float: left;
+	margin-left: 300px;	
+	margin-right: 300px;
+	margin-bottom: 100px;	
+}
 h3 {
-	font-size: 40px;
-	font-family: 'Rokkitt', serif;
+	font-size: 80px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+	width: 200px;
+	margin-bottom: 15px;
+	line-height: 70px;
+}
+img {
+	margin-top: 40px;
+	margin-bottom: -80px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	line-height: 29px;
+	width: 300px;
+}
+.bodytype {
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+.border1 {
+	float: left;
+	overflow: auto;
+	color: hsl(0,0%,50%);
+	width: 4px;
+	height: 100px;
+	border-line: 2px;
+	line-height: 900%;
+	margin-right: 0px;
+}
+.answer {
+	font-size: 18px;
+}
+#calculateBtn1 {
+	background-color: hsl(0,0%,50%);
+	margin-right: 4px;
+}
+#calculateBtn2 {
+	background-color: hsl(0,0%,50%);
+	margin-right: 4px;
+}
+#calculateBtn3 {
+	background-color: hsl(0,0%,50%);
+	margin-right: 4px;
+}
+#calculateBtn4 {
+	background-color: hsl(0,0%,50%);
+	margin-right: 4px;
 }
 
-img {
-	margin-left: 40px;
+#num_one {
+	width: 300px;
+}
+#num_two {
+	width: 300px;
 }

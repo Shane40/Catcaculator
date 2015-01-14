@@ -3,16 +3,18 @@
 <head>
 	<title>Catcalculator</title>
 </head>
-<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="normalize.css">
-
 <link rel="stylesheet" type="text/css" href="main.css">
 <body>
 
-<img src="Samantha.jpg" width=300px />
-
-<h3>Let's Add Some Values</h3>
-
+	<img class="cat" src="Calc.jpg" width=400px />
+	<span class="border1"></span>
+	<h3>Let's Add Some Values</h3>
+	<div class="introtext">
+		<p>You think you're math-savvy? Plug in some numbers and see what you return.</p>
+		</div>
+	<div class="bodytype">
 <input type="text" id="num_one" />
 <br /><br />
 <input type="text" id="num_two" />
@@ -21,11 +23,12 @@
 <input type="submit" value="Subtract" id="calculateBtn2" />
 <input type="submit" value="Multiply" id="calculateBtn3" />
 <input type="submit" value="Divide" id="calculateBtn4" />
+	</div>
 
-<div class="answer">
+	<div class="answer">
   <br />
   Answer: <span id="answer"></span>
-</div>
+	</div>
 
 
 <script type="text/javascript" src="main.js"></script> 
